@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) { // Form has been submitted.
 ?>
 <?php include_layout_template('header.php'); ?>
 <div id="form">
-		<h2>Login</h2>
+		<h2>Register</h2>
 		<?php echo output_message($message); ?>
 
 		<form action="register.php" method="post">
